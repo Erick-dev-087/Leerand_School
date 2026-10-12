@@ -5,9 +5,10 @@ import CTAButton from "@/components/ui/CTAButton";
 import ScrollReveal from "@/components/motion/ScrollReveal";
 
 export const metadata: Metadata = {
-  title: "Contact",
+  title: "Contact — Reach Leerand School in Thika",
   description:
-    "Get in touch with Leerand School, Thika — call, email or message us on WhatsApp, or arrange a visit.",
+    "Get in touch with Leerand School in Thika — call, email, WhatsApp or visit us. Find our address, office hours, directions and arrange a school tour.",
+  alternates: { canonical: "https://leerandschool.ac.ke/contact" },
 };
 
 export default function ContactPage() {

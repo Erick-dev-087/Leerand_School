@@ -8,9 +8,10 @@ import CTAButton from "@/components/ui/CTAButton";
 import CtaBand from "@/components/ui/CtaBand";
 
 export const metadata: Metadata = {
-  title: "Academics",
+  title: "Academics — CBE Curriculum, Primary & Junior Secondary",
   description:
-    "How children learn and grow at Leerand: a CBE approach built on understanding, curiosity, application and confidence — from Early Years through Junior Secondary.",
+    "How children learn and grow at Leerand School, Thika: a CBE (CBC) approach built on understanding, curiosity, application and confidence — from Early Years through Junior Secondary in Thika, Kenya.",
+  alternates: { canonical: "https://leerandschool.ac.ke/academics" },
 };
 
 const approach = [

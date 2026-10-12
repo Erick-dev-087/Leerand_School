@@ -10,9 +10,10 @@ import CTAButton from "@/components/ui/CTAButton";
 import CtaBand from "@/components/ui/CtaBand";
 
 export const metadata: Metadata = {
-  title: "Activities",
+  title: "Activities — Sports, Arts & Co-Curricular Life",
   description:
-    "Learning doesn't stop when the lesson ends. Sport, creativity, music and discovery help Leerand children build confidence, teamwork and character.",
+    "Learning doesn't stop when the lesson ends. Sport, creativity, music and discovery help Leerand School children in Thika build confidence, teamwork and character beyond the classroom.",
+  alternates: { canonical: "https://leerandschool.ac.ke/activities" },
 };
 
 const showcase = [

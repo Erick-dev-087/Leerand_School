@@ -4,7 +4,8 @@ import SectionIntro from "@/components/ui/SectionIntro";
 
 export const metadata: Metadata = {
   title: "Privacy",
-  description: "How Leerand School handles enquiry information submitted through this website.",
+  description: "How Leerand School, Thika handles enquiry information submitted through this website.",
+  alternates: { canonical: "https://leerandschool.ac.ke/privacy" },
 };
 
 export default function PrivacyPage() {

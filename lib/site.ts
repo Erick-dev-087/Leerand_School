@@ -30,6 +30,7 @@ export type NavItem = { label: string; href: string };
 export const navItems: NavItem[] = [
   { label: "Home", href: "/" },
   { label: "Our School", href: "/our-school" },
+  { label: "Our Branches", href: "/our-branches" },
   { label: "Academics", href: "/academics" },
   { label: "Activities", href: "/activities" },
   { label: "Why Leerand", href: "/why-leerand" },

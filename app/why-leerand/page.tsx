@@ -4,9 +4,10 @@ import PhilosophyScroll from "@/components/why/PhilosophyScroll";
 import CtaBand from "@/components/ui/CtaBand";
 
 export const metadata: Metadata = {
-  title: "Why Leerand",
+  title: "Why Leerand — What Makes Our School in Thika Different",
   description:
-    "What makes Leerand distinctive: one continuous journey of Learn, Innovate and Succeed — strong foundations, the courage to explore, and the confidence to grow.",
+    "What makes Leerand School in Thika distinctive: one continuous journey of Learn, Innovate and Succeed — strong foundations, the courage to explore, and the confidence to grow. Discover why parents choose Leerand.",
+  alternates: { canonical: "https://leerandschool.ac.ke/why-leerand" },
 };
 
 export default function WhyLeerandPage() {

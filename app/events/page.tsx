@@ -7,9 +7,10 @@ import ScrollReveal from "@/components/motion/ScrollReveal";
 import CtaBand from "@/components/ui/CtaBand";
 
 export const metadata: Metadata = {
-  title: "Events",
+  title: "Events — School Events & Open Days in Thika",
   description:
-    "Upcoming events and moments of school life at Leerand School, Thika — open days, sports, showcases and community gatherings.",
+    "Upcoming events at Leerand School, Thika — open days, sports days, showcases and community gatherings. See what's happening and plan your visit.",
+  alternates: { canonical: "https://leerandschool.ac.ke/events" },
 };
 
 export default function EventsPage() {

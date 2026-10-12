@@ -11,9 +11,10 @@ import CtaBand from "@/components/ui/CtaBand";
 import LeerandChild from "@/components/home/LeerandChild";
 
 export const metadata: Metadata = {
-  title: "Our School",
+  title: "Our School — About Leerand School in Thika",
   description:
-    "Leerand School is a community built around children's growth — more than a place to learn. Discover our foundation, our approach and our learning environment in Thika.",
+    "Leerand School is a community in Thika built around children's growth — a primary and junior secondary school offering whole-child development, strong values and a supportive learning environment in Thika, Kenya.",
+  alternates: { canonical: "https://leerandschool.ac.ke/our-school" },
 };
 
 const foundation = [

@@ -6,9 +6,10 @@ import TrackOnMount from "@/components/analytics/TrackOnMount";
 import ScrollReveal from "@/components/motion/ScrollReveal";
 
 export const metadata: Metadata = {
-  title: "Admissions",
+  title: "Admissions — Enrol Your Child at Leerand School, Thika",
   description:
-    "Start your journey with Leerand School, Thika. Send a quick admission enquiry or talk to us directly on WhatsApp.",
+    "Start your child's journey at Leerand School, Thika. Send a quick admission enquiry online or talk to us on WhatsApp. Enrolment is open for Early Years, Primary and Junior Secondary.",
+  alternates: { canonical: "https://leerandschool.ac.ke/admissions" },
 };
 
 export default function AdmissionsPage() {
