@@ -6,6 +6,7 @@ import Footer from "@/components/layout/Footer";
 import WhatsAppButton from "@/components/ui/WhatsAppButton";
 import PageViewTracker from "@/components/analytics/PageViewTracker";
 import JsonLd from "@/components/seo/JsonLd";
+import { Analytics } from "@vercel/analytics/next";
 
 const lora = Lora({
   subsets: ["latin"],
@@ -95,6 +96,7 @@ export default function RootLayout({
         <main id="main">{children}</main>
         <Footer />
         <WhatsAppButton />
+        <Analytics />
       </body>
     </html>
   );
